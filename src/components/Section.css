@@ -1,0 +1,23 @@
+.section {
+  height: 10px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F7FA;
+}
+
+.section img {
+  height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .section img, .section {
+    height: 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section img, .section {
+    height: 6px;
+  }
+}

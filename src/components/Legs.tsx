@@ -31,7 +31,32 @@ export function Legs(){
                     </div>
                 </div>
             </div>
-            <div className="legs-content3"></div>
+            <div className="legs-content3">
+                <div className="legs-content3-header">
+                    <p className="legs-content3-header-title">Caring is the new marketing</p>
+                    <p className="legs-content3-header-description">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                </div>
+                <div className="legs-content3-content">
+                    <div className="legs-content3-layout">
+                        <div className="legs-content3-layout-block">
+                            <p className="legs-block-description">Creating Streamlined Safeguarding Processes with OneRen</p>
+                            <button className="legs-block-readmore">Readmore →</button>
+                        </div>
+                    </div>
+                    <div className="legs-content3-layout2">
+                        <div className="legs-content3-layout-block">
+                            <p className="legs-block-description">What are your safeguarding responsibilities and how can you manage them?</p>
+                            <button className="legs-block-readmore">Readmore →</button>
+                        </div>
+                    </div>
+                    <div className="legs-content3-layout3">
+                        <div className="legs-content3-layout-block">
+                            <p className="legs-block-description">Revamping the Membership Model with Triathlon Australia</p>
+                            <button className="legs-block-readmore">Readmore →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './Content.css'
-import { Section } from './Section.tsx'
 import { Community } from './Community.tsx'
 import { Legs } from './Legs.tsx'
 
@@ -15,7 +14,6 @@ export function Content(){
         </div>
       </main>
       <aside className='main-aside'><img src="./DesignContainer.svg" id='design'/></aside>
-      <Section/>
       <footer className='main-footer'>
         <p className="clients">Our Clients</p>
         <p className="clients-description">We have been working with some Fortune 500+ clients</p>

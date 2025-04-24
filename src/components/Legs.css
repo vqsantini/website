@@ -1,0 +1,140 @@
+.legs-main {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* CONTENT 1 */
+
+.legs-content1 {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.legs-content1-asideLeft {
+    width: 50vw;
+    flex: 1 1 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legs-content1-asideLeft img {
+    height: 350px;
+}
+
+.legs-content1-asideRight {
+    width: 50vw;
+    flex: 1 1 50vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.legs-content1-asideRight-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 10vw;
+}
+
+.legs-content1-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    max-width: 500px;
+}
+
+.legs-content1-description {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #717171;
+    max-width: 500px;
+}
+
+.legs-content1-asideRight-content button {
+    height: 40px;
+    width: 120px;
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* CONTENT 2 */
+
+.legs-content2 {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F5F7FA;
+}
+
+.legs-content2-asideLeft {
+    width: 50vw;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.legs-content2-asideLeft img {
+    height: 280px;
+}
+
+.legs-content2-asideRight {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.legs-content2-asideRight-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.legs-content2-asideRight-content-description {
+    max-width: 500px;
+    font-size: 0.75rem;
+    color:#4D4D4D ;
+    font-weight: 400;
+}
+
+.legs-content2-asideRight-content-name {
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.legs-content2-asideRight-content-name-association {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #717171;
+}
+
+.legs-content2-asideRight-content-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.legs-content2-asideRight-content-1 p {
+    color: #4CAF4F;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.legs-content2-asideRight-content-1 img {
+    height: 32px;
+}

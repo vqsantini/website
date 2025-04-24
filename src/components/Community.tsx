@@ -57,7 +57,7 @@ export function Community(){
                   </div>
                 </div>
                 <div className="community-footer-group2-1">
-                  <img src="./Clubs.svg" alt="clubs" />
+                  <img src="./Clubs1.svg" alt="clubs" />
                   <div className="community-footer-group2-1-p">
                     <p className='community-group2-1-numbers'>46,328</p>
                     <p className='community-group2-1-description'>Clubs</p>

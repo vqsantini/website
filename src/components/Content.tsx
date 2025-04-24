@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './Content.css'
 import { Section } from './Section.tsx'
+import { Community } from './Community.tsx'
+import { Legs } from './Legs.tsx'
 
 export function Content(){
   return(
@@ -19,6 +21,8 @@ export function Content(){
         <p className="clients-description">We have been working with some Fortune 500+ clients</p>
         <img src="./Patrociners.svg"/>
       </footer>
+      <Community/>
+      <Legs/>
     </div>
     
   )

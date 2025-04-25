@@ -23,7 +23,7 @@ export function Community(){
             </div>
             <div className='community-li-div-group1'>
               <img src="./Clubs.svg" />
-              <p className='community-li-group1-title'>Clubs And Groups</p>
+              <p className='community-li-group1-title'>Clubs<br /> And Groups</p>
               <p className='community-li-group1-description'>Our membership management software provides full automation of membership renewals and payments</p>
             </div>
           </li>

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './Content.css'
 import { Community } from './Community.tsx'
 import { Legs } from './Legs.tsx'
+import { Footer } from './Footer.tsx'
 
 export function Content(){
   return(
@@ -21,6 +22,7 @@ export function Content(){
       </footer>
       <Community/>
       <Legs/>
+      <Footer/>
     </div>
     
   )
